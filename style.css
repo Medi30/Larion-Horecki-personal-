@@ -1,0 +1,115 @@
+
+#herocont{
+    background-color: #3A3960;
+    border-bottom: 2px solid #123524;
+    border-top: 2px solid #123524;
+}
+
+.text{
+    color: #A9BFA8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-body-emphasis{
+    color: #FAFFC5 !important;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    background-color: #5E686D;
+    border-top: 0px solid #123524;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+#skillscont{
+    border-bottom: 2px solid #123524;
+    margin-top: 0px;
+}
+
+.feature{
+    background-color: #3A3960;
+    border-top: 2px solid #123524;
+    padding-left: 40px;
+    margin-top: 0px;
+}
+
+.explist{
+    font-weight: bolder;
+    color: #FAFFC5;
+}
+
+
+#projecttitle{
+    display: flex;
+    justify-content: center;
+    background-color: #5E686D;
+    border-bottom: 2px solid #123524;
+    border-top: 0px solid #123524;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+#mainscreen{
+    width: 1000px;
+    max-width: 1000px;
+}
+
+.album{
+    display: flex;
+    background-color: #EFE3C2;
+}
+
+.albumcont{
+    display: flex;
+    justify-content: center;
+}
+
+.gifcont{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+#gif1{
+    width: 333px;
+}
+#gif2{
+    width: 333px;
+}
+#gif3{
+    width: 333px;
+}
+
+@media (max-width: 580px){
+    .gifcont {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+.projectcont{
+    background-color: #3A3960;
+}
+
+#mepic{
+    width: 50%;
+    height: 50%;
+}
+
+.aboutmecont{
+    background-color: #A9BFA8;
+    padding: 50px;
+    border-top: 2px solid #123524;
+    margin-top: 1px;
+}
+
+.text2{
+    color: #3A3960;
+}
+
+.text3{
+    color: #FAFFC5;
+}
