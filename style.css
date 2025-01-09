@@ -58,6 +58,14 @@
     max-width: 1000px;
 }
 
+
+@media (max-width: 580px){
+    #mainscreen{
+        width: 500px;
+        max-width: 500px;
+    }
+}
+
 .album{
     display: flex;
     background-color: #EFE3C2;
