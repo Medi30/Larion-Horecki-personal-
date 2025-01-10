@@ -44,6 +44,7 @@
 #projecttitle{
     display: flex;
     justify-content: center;
+    text-align: center;
     background-color: #5E686D;
     border-bottom: 2px solid #123524;
     border-top: 0px solid #123524;
@@ -61,8 +62,7 @@
 
 @media (max-width: 580px){
     #mainscreen{
-        width: 500px;
-        max-width: 500px;
+        width: 333px;
     }
 }
 
