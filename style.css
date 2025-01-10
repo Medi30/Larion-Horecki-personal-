@@ -35,6 +35,10 @@
     margin-top: 0px;
 }
 
+.row{
+    margin-right: 0px;
+}
+
 .explist{
     font-weight: bolder;
     color: #FAFFC5;
@@ -109,9 +113,10 @@
 
 .aboutmecont{
     background-color: #A9BFA8;
-    padding: 50px;
+    padding-left: 50px;
     border-top: 2px solid #123524;
     margin-top: 1px;
+    margin-right: 0px !important;
 }
 
 .text2{
